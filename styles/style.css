@@ -214,7 +214,7 @@ html{
         display: block;
         clear: both;
     }
-
+    
     .footer-box{
         width: 326px;
         height: 348px;
@@ -242,6 +242,7 @@ html{
         color: #F2E9D8;
         margin-bottom: 30px;
         text-align: start;
+        
     }
     .footer-mail{
         display: flex;
@@ -280,11 +281,45 @@ html{
 
     }
     .footer-background{
+        max-width: 390px;
         width: 100%;
         height: 241px;
         background: url(/imges/img_5.jpg) no-repeat center / 100% auto;
         opacity: 50%;
+        
     }
-  
-
+    footer{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link{
+        height: 178px;
+        width: 100%;
+    }
+    .footer-link a img{
+        color: var(--sub-color);
+    }
+   .logo{
+    width: 112px;
+    height: 34px;
+    margin-bottom: 58px;
+   }
+   .footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+   }
+   .footer-link div a{
+    margin-right: 16px;
+   }
+   footer li{
+    margin-bottom: 16px;
+   }
+   footer ul li a{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #767676;
+   }
 }
