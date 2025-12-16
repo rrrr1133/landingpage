@@ -322,11 +322,12 @@ header button{
         width: 100%;
     }
     .footer-link a img{
-        color: var(--sub-color);
+        width: 42px;
+        height: 42px;
     }
    .logo{
-    width: 112px;
-    height: 34px;
+    width: 226px;
+    height: 70px;
 
    }
    .footer-link{
@@ -524,11 +525,10 @@ header button{
         background-color: var(--box-color);
         padding: 0px 32px;
         padding-top: 36px;
-        padding-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items:center;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .footer-box h3{
         font-size: 2.4rem;
@@ -536,6 +536,7 @@ header button{
         color: #fff;
         margin-bottom: 20px;
         text-align: start;
+        line-height: normal;
     }
 
     .footer-box p{
@@ -544,18 +545,20 @@ header button{
         color: #F2E9D8;
         margin-bottom: 30px;
         text-align: start;
+        line-height: normal;
         
     }
     .footer-mail{
         display: flex;
-        width: 262px;
-        height: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
         position: relative;
     }
 
     .footer-mail input{
-        width: 100%;
-        height: 100%;
+       width: 262px;
+        height: 40px;
         border-radius: 60px;
         border: none;
         text-align: center;
@@ -579,6 +582,7 @@ header button{
         font-size: 1.4rem;
         font-weight: 700;
         margin-top: 20px;
+        align-self: flex-end;
 
 
     }
