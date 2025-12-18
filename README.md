@@ -49,7 +49,7 @@ sr-only 클래스명을 이용하여 HTML에 있어서 스크린 리더기에 �
 
 ## 4. 다양한 디바이스와의 호환을 위한 반응형 구현
 ```CSS
-@media (min-width:391px)
+@media(min-width:768px)
 
-@media(max-width:390px)
+@media (max-width:767px)
 ```
