@@ -54,4 +54,6 @@ sr-only 클래스명을 이용하여 HTML에 있어서 스크린 리더기에 �
 @media (max-width:767px)
 ```
 ## 5. 웹 표준 준수
+<p align="center">
 <img width="70%" alt="웹표준 검사결과" src="https://github.com/rrrr1133/landingpage/issues/1#issue-3742586970">
+</p>
